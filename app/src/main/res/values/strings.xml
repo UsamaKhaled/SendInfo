@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SendInfo</string>
+    <string name="createDepartment">create department</string>
+    <string name="CreateEmployee">Create Employee department</string>
+
+    <string name="employeeData">Employee Data</string>
+    <string name="id">id</string>
+    <string name="employeeName">name</string>
+    <string name="adress">address</string>
+    <string name="salary">salary</string>
+    <string name="job">job</string>
+    <string name="btnReg">Register</string>
+
+    <string name="departmentData">department data</string>
+    <string name="no">no</string>
+    <string name="DepartmentName">name</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+
+
+</resources>

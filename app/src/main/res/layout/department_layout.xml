@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/departmentData"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/dept_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/no"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/dept_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/DepartmentName"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/deptDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/description"
+
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
